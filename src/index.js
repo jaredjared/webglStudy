@@ -1,4 +1,4 @@
-import { arrMap, DiffForInAndOf } from "./webBase";
+import { arrMap, DiffForInAndOf,extendsTypes } from "./webBase";
 
 const readline=(str)=>{
   return str;
@@ -6,8 +6,9 @@ const readline=(str)=>{
 
 export default class Main {
     constructor() {
-      new DiffForInAndOf();
-      arrMap();
+      // new DiffForInAndOf();
+      // arrMap();
+      extendsTypes();
     }
 }
 window.onload = () => {
